@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/SignIn</title>
+    <link rel="stylesheet" href="./SignUp.css" />
+  </head>
+  <body>
+    <div class="progress-container">
+      <div class="progress">
+        <p class="progress-1 done">1</p>
+        <div class="progress-line progress-l-1"></div>
+        <p class="progress-2">2</p>
+        <div class="progress-line progress-l-2"></div>
+        <p class="progress-3">3</p>
+      </div>
+    </div>
+    <div class="container-login">
+      <div class="auto-login">
+        <div class="google-login">
+          <img src="https://img.icons8.com/color/256/google-logo.png" />
+          <p>Sign up with Google</p>
+        </div>
+      </div>
+
+      <div class="login-splitter">
+        <hr />
+        <div class="login-p">
+          <p>or</p>
+        </div>
+      </div>
+
+      <form class="manual-login">
+        <div class="login-input">
+          <label>What's yout email?</label>
+          <input required placeholder="Enter your email." type="text" />
+        </div>
+
+        <div class="login-input">
+          <label>Confirm yout email</label>
+          <input required placeholder="Enter your email again." type="text" />
+        </div>
+
+        <div class="login-input">
+          <label>Create a password</label>
+          <input required placeholder="Create a password." type="password" />
+        </div>
+
+        <div class="login-input">
+          <label>What Should we call you?</label>
+          <input required placeholder="Enter your profile name." type="text" />
+          <label class="special-extra-label"
+            >This appears on your profile.</label
+          >
+        </div>
+
+        <div class="login-year">
+          <label>What's your date of birth?</label>
+          <div class="login-year-all-input">
+            <div class="login-year-each-input input">
+              <label>Day</label>
+              <input required placeholder="DD" type="text" />
+            </div>
+            <div class="login-year-each-input select">
+              <label>Month</label>
+              <select required class="login-select">
+                <option selected value="">Month</option>
+              </select>
+            </div>
+            <div class="login-year-each-input input">
+              <label>Year</label>
+              <input required placeholder="YYYY" type="text" />
+            </div>
+          </div>
+        </div>
+
+        <div class="login-gen">
+          <label>What's your gender?</label>
+          <form>
+            <div>
+              <input type="radio" name="X" />
+              <label>Male</label>
+            </div>
+
+            <div>
+              <input type="radio" name="X" />
+              <label>Female</label>
+            </div>
+
+            <div>
+              <input type="radio" name="X" />
+              <label>non-binary</label>
+            </div>
+
+            <div>
+              <input type="radio" name="X" />
+              <label>other</label>
+            </div>
+          </form>
+        </div>
+
+        <div class="login-agreements">
+          <div>
+            <input required type="checkbox" name="1" />
+            <label
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
+              ipsa.</label
+            >
+          </div>
+
+          <div>
+            <input required type="checkbox" name="" id="2" />
+            <label
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
+              ipsa.</label
+            >
+          </div>
+
+          <div>
+            <input required type="checkbox" name="" id="3" />
+            <label
+              >Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque,
+              ipsa.</label
+            >
+          </div>
+        </div>
+
+        <div class="login-btn">
+          <button class="login-btn-btn" type="submit">Next</button>
+        </div>
+      </form>
+    </div>
+
+    <script src="./SignUp.js"></script>
+  </body>
+</html>
